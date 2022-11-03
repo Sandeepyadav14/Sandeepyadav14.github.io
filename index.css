@@ -1005,14 +1005,14 @@ margin-bottom: 50px;
       font-family: 'Poppins', sans-serif;
   }
   #aboutme>li{
-      border-top: 2px solid red;
+     
       width: 50%;
   list-style: none;
   
   }
   #about_div{
       display: block;
-      border: 1px solid red;
+    
       margin: auto;
      width: 1300px;
       padding: 10px;
@@ -1023,7 +1023,7 @@ margin-bottom: 50px;
 
     margin-left: 100px;
     
-    border: 1px solid red;
+    
 
   }
   #info_about{
@@ -1032,7 +1032,7 @@ margin-bottom: 50px;
       width: 1100px;
       font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;;
   }
-  /* #ssss */
+ 
   #info_about2{
     width: 900px;
   }
@@ -1118,13 +1118,12 @@ margin-bottom: 50px;
   #contact_div>.card{
   margin:0 auto;
   width:600px;
-  /* background-color:rgb(161, 161, 160); */
+  
   border-radius:15px;
   padding:10px;
   box-sizing:border-box;
   text-align:center;
-  /* box-shadow:0 10px 40px rgba(0,0,0,.5); */
-  /* overflow:hidden;     */
+  
   cursor: pointer;
   }
  
@@ -1134,7 +1133,6 @@ margin-bottom: 50px;
   margin: auto;
   margin-top: 40px;
   margin-left: 300px;
-  border: 1px solid black;
   transform: translate(-50%, -50%);
 }
   #img_div li {
@@ -1356,7 +1354,6 @@ margin-bottom: 50px;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     margin: auto;
-    border: 1px solid red;
   }
   #skills_con>div{
     width: 400px;
@@ -1711,7 +1708,7 @@ transform: translate(-50%, -50%);
     margin: 0;
     background-color: grey;
 }
-/* #sandy2 */
+
 .nav{
   height: 165px;
 }
@@ -1870,7 +1867,6 @@ transform: translate(-50%, -50%);
 
 #about_div{
   display: block;
-  border: 1px solid red;
   margin: auto;
  width: 1100px;
   padding: 10px;

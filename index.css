@@ -257,11 +257,17 @@ margin-bottom: 50px;
   cursor: pointer;
 }
 #resume_button>a{
-  color: black;
+  color: rgb(83, 83, 83);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 #resume_button:hover{
   background:linear-gradient(#03a9f4, #e91ee3);
+
   
+}
+#resume_button:hover a{
+  color:white;
 }
 
 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="try.css">
     
 </head>
 <body>
@@ -23,6 +24,7 @@
                     <li><a onclick="sandy()" id="section3" href="#skills">Skills</a></li>
                     <li id="f"><a onclick="sandy()" id="section4" href="#projects">Projects</a></li>
                     <li><a onclick="sandy()" id="section5" href="#contacts">Contacts</a></li>
+                    <li><a href="Sandeep.pdf" download>Resume</a></li>
                 </ul>
             </div>
             <div class="media_button">
@@ -44,9 +46,10 @@
             <div id="langunage"><h1>Java Backend Developer</h1></div>
              
             <button id="resume_button">
-                <a href="https://drive.google.com/file/d/1GQtbTt2S6kzvp87RHB7HSX0Nh5XpEQox/view?usp=sharing">Resume</a>
+                <a  href="Sandeep.pdf" download>Resume</a>
 
             </button>
+            
                 
             
           </div>
@@ -316,8 +319,26 @@
                   
               </div>
         </section>
-
-
+        <h1 id="git">Git hub Status</h1>
+        <div id="streak_con">
+            <div style="margin-top: 30px;">
+                <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sandeepyadav14&langs_count=8&count_private=true&layout=compact&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D" alt=""></p>
+            </div>
+    
+             <div id="streak">
+                <p><img src="https://streak-stats.demolab.com/?user=Sandeepyadav14&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D" alt=""></p>
+                <p><img src="https://github-readme-stats.vercel.app/api?username=Sandeepyadav14&show_icons=true&count_private=true&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D" alt=""></p>
+             </div>
+        </div>
+        
+        <div id="cal">
+            
+            <div class="calendar">
+            
+            
+            </div>
+        </div>
+        
 
          <section id="contacts">
             
@@ -327,6 +348,9 @@
                     <p>Feel free to
                         <span>connect</span>
                         with me
+                    </p>
+                    <p id="phone">
+                        <i class="fa fa-mobile">: 7710817246</i>
                     </p>
                  
                 
@@ -353,8 +377,8 @@
                           </a> 
                         </li>
                         <li>
-                            <a href="https://medium.com/@Sandy_yadav14">
-                              <i class="fa fa-medium"></i>
+                            <a href="mailto:sandyadav1414@gmail.com">
+                                <i class="fa fa-envelope"></i>
                             </a> 
                           </li>
                     </div>
@@ -365,3 +389,7 @@
 </body>
 </html>
 <script src="index.js"></script>
+<script src="try.js"></script>
+<script>
+    new GitHubCalendar(".calendar", "Sandeepyadav14");
+</script>
